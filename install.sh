@@ -63,6 +63,22 @@ cd ~/tools/
 #install chromium
 echo "Installing Chromium"
 sudo snap install chromium
+echo "store"
+
+sudo snap install snap-store
+echo "done"
+echo "android studio"
+
+sudo snap install android-studio --classic
+echo "done"
+
+echo "box emelotor"
+
+sudo snap install --devmode --beta anbox
+
+echo "done"
+
+
 echo "done"
 
 echo "installing JSParser"
